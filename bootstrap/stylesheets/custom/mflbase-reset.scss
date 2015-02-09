@@ -4,13 +4,13 @@ body { font-size: 16px; font-family: Verdana; color: #666; border: 0px; margin-t
    background-color: tan;
 }
 
-a:link { color: $colorlink; }
-a:active { color: $colorlinkactive; }
-a:visited { color: $colorlinkvisited; }
+a:link { color: $brand-primary; }
+a:active { color: $brand-primary; }
+a:visited { color: $brand-primary; }
 a:hover { text-decoration: underline; }
 caption { font-size: 100%; font-weight: normal; }
 th { color: #FFFFFF; font-style: normal; font-weight: normal;
-   background-color: $lightgray;
+   background-color: $gray-lighter;
 }
 th a:link, th a:visited { color: #FFFFFF; }
 ul { margin-top: 0; margin-bottom: 0; }
@@ -21,7 +21,7 @@ h2, h3, h4 { margin-top: 0px; }
 h1 { font-size: 2em; margin-top: 6px; }
 h2 { font-size: 1.6em; }
 h3 { font-size: 1.4em; }
-h4 { font-size: 1.2em%; }
+h4 { font-size: 1.2em; }
 form { margin-top: 0px; margin-bottom: 0px; }
 .form_buttons { margin-left: auto; margin-right: auto; text-align: center; }
 td.points, td.week, td.salary, td.contractyear, td.drafted, td.year, td.rank { text-align:auto; }
