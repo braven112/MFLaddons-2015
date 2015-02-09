@@ -1,16 +1,16 @@
 
 
 body { font-size: 16px; font-family: Verdana; color: #666; border: 0px; margin-top: 2em;
-   background-color: tan;
+	background-color: #FFF;
 }
 
-a:link { color: $brand-primary; }
-a:active { color: $brand-primary; }
-a:visited { color: $brand-primary; }
+a:link { color: #666; }
+a:active { color: #666; }
+a:visited { color: #666; }
 a:hover { text-decoration: underline; }
 caption { font-size: 100%; font-weight: normal; }
 th { color: #FFFFFF; font-style: normal; font-weight: normal;
-   background-color: $gray-lighter;
+	background-color: #ccc;
 }
 th a:link, th a:visited { color: #FFFFFF; }
 ul { margin-top: 0; margin-bottom: 0; }
@@ -30,8 +30,8 @@ td.points, td.week, td.salary, td.contractyear, td.drafted, td.year, td.rank { t
 .brandlogo { width: 15%; vertical-align: top; }
 
 .mainmenucurrent { font-size: .95em; text-decoration: none; }
-.mainmenuon, A.mainmenuon:link, A.mainmenuon:visited, A.mainmenuon:hover, A.mainmenuon:active { color: tan; background-color: #666; font-size: .95em; text-decoration: none; }
-.mainmenuoff, A.mainmenuoff:link, A.mainmenuoff:visited, A.mainmenuoff:hover, A.mainmenuoff:active, A.mainmenucurrent:link, A.mainmenucurrent:visited, A.mainmenucurrent:hover, A.mainmenucurrent:active { color: #666; background-color: tan; font-size: .95em; text-decoration: none; }
+.mainmenuon, A.mainmenuon:link, A.mainmenuon:visited, A.mainmenuon:hover, A.mainmenuon:active { color: #FFF; background-color: #666; font-size: .95em; text-decoration: none; }
+.mainmenuoff, A.mainmenuoff:link, A.mainmenuoff:visited, A.mainmenuoff:hover, A.mainmenuoff:active, A.mainmenucurrent:link, A.mainmenucurrent:visited, A.mainmenucurrent:hover, A.mainmenucurrent:active { color: #666; background-color: #FFF; font-size: .95em; text-decoration: none; }
 
 .verticalmenu { width: 120px; }
 .pagetitle { width: 70%; }
@@ -40,10 +40,10 @@ td.points, td.week, td.salary, td.contractyear, td.drafted, td.year, td.rank { t
 .pagefooter, .pagefooter TD { font-size: .95em; }
 .pagefooter { clear: both; }
 .eventablerow {
-   background-color: #EEEEEE;
+	background-color: #EEEEEE;
 }
 .oddtablerow {
-   background-color: #FFFFFF;
+	background-color: #FFFFFF;
 }
 .module_expand { font-family: monospace; float: right; visibility: visible; cursor: pointer; }
 .warning { color: #FF0000; }
@@ -51,7 +51,7 @@ td.points, td.week, td.salary, td.contractyear, td.drafted, td.year, td.rank { t
 .reallysmall { font-size: .9em; }
 .picks { width: 400px; }
 .currentweek { font-weight: bold; }
-.leaguelogo, .franchiselogo, .standingslogo { border: 0px; display: block; margin-left: auto; margin-right: auto; text-align: center; }
+.leaguelogo, .franchiselogo, .s#FFFdingslogo { border: 0px; display: block; margin-left: auto; margin-right: auto; text-align: center; }
 #support .leaguelogo { display: none; }
 .franchiseicon { border: 0px; }
 .requiredfield { font-weight: bold; }
@@ -118,8 +118,8 @@ td.h2hpct { text-align: right; }
 #homepagecolumns { width: 100%; }
 .homepagemessage { border: 1px solid #B22222; padding: 0px; width: 60%; }
 .livescoringsummary { width: 260px; height: 300px; }
-.homepagecolumn #standings h3, .homepagecolumn #brief_standings h3, .homepagecolumn .homepagemodule caption { padding-top: 5px; padding-bottom: 5px; color: #FFFFFF;
-background-color: #B22222;
+.homepagecolumn #s#FFFdings h3, .homepagecolumn #brief_s#FFFdings h3, .homepagecolumn .homepagemodule caption { padding-top: 5px; padding-bottom: 5px; color: #FFFFFF;
+	background-color: #B22222;
 }
 .homepagecolumn .homepagemodule h3 { margin: -1px; } 
 .homepagecolumn .homepagemodule, .homepagecolumn .homepagemodule caption { width: 100%; overflow:hidden; }
@@ -165,10 +165,10 @@ TD .reportnavigation { padding-top: 0; padding-bottom: 0; text-align: left; }
 #body_ajax_la td .report { width: 100%; }
 #body_ajax_la option, #body_ajax_ld select { font-size: .9em; }
 #body_pro_schedule .tool-tip { width: 270px; }
-#body_pro_schedule .tool-title, #body_pro_schedule .tool-text { background-color: tan }
+#body_pro_schedule .tool-title, #body_pro_schedule .tool-text { background-color: #FFF }
 #homepagetabs { border-bottom: 1px solid #666; margin: 0; padding-bottom: 19px; padding-left: 10px; }
 #homepagetabs ul, #homepagetabs li { display: inline; list-style-type: none; margin: 0; border: 1px solid #666; background: #FFFFFF; float: left; line-height: 14px; margin-right: 8px; padding: 2px 10px 2px 10px; text-decoration: none; cursor: pointer; }
-#homepagetabs li.currenttab { background: #EEEEEE; border-bottom: 1px solid tan; }
+#homepagetabs li.currenttab { background: #EEEEEE; border-bottom: 1px solid #FFF; }
 #options_238 #map_canvas { height: 600px; }
 #home #map_canvas { height: 350px; }
-#standings .franchise_eliminated, #weekly_summary .franchise_eliminated, .franchise_eliminated {text-decoration: line-through; }
+#s#FFFdings .franchise_eliminated, #weekly_summary .franchise_eliminated, .franchise_eliminated {text-decoration: line-through; }
